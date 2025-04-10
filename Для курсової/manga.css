@@ -1,0 +1,83 @@
+.qqq{
+    position: fixed;
+    display: inline-block;
+    color: white;
+    background-color: rgb(151, 7, 7);
+    width: 100%;
+}
+
+        /* Змінити ширину скроллбару */
+        ::-webkit-scrollbar {
+            width: 12px; /* Ширина вертикального скроллбару */
+        }
+
+        /* Змінити колір і вигляд повзунка (це те, що ми тягнемо) */
+        ::-webkit-scrollbar-thumb {
+            background-color: white; /* Зелений колір для повзунка */
+            border-radius: 10px; /* Округлі кути повзунка */
+        }
+
+        /* Змінити колір фону скроллбару */
+        ::-webkit-scrollbar-track {
+            background-color: #e0e0e0; /* Світло-сірий фон для скроллбару */
+        }
+
+        /* Змінити висоту горизонтального скроллбару */
+        ::-webkit-scrollbar-horizontal {
+            height: 8px; /* Висота горизонтального скроллбару */
+        }
+
+        /* Додатковий стиль для тіла сторінки, щоб був скроллбар */
+        body {
+            height: 2000px; /* Додаємо висоту, щоб був скроллбар */
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: black;
+        }
+
+.rrr li{
+    display: inline-block;
+}
+
+.www{
+    display: none;
+}
+
+.eee:hover .www{
+    display: block;
+    position: absolute;    
+    top: 30px;
+    left: 40px;
+   
+}
+
+.www li{
+    border: 2px solid white;
+    margin: right 150px;
+}
+
+
+
+.li{
+    margin: 30px;
+}
+
+.eee{
+   padding: 25px;
+}
+
+
+body{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+

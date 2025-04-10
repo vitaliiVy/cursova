@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Налаштування Скроллбару</title>
+    <style>
+        /* Змінити ширину скроллбару */
+        ::-webkit-scrollbar {
+            width: 12px; /* Ширина вертикального скроллбару */
+        }
+
+        /* Змінити колір і вигляд повзунка (це те, що ми тягнемо) */
+        ::-webkit-scrollbar-thumb {
+            background-color: #4CAF50; /* Зелений колір для повзунка */
+            border-radius: 10px; /* Округлі кути повзунка */
+        }
+
+        /* Змінити колір фону скроллбару */
+        ::-webkit-scrollbar-track {
+            background-color: #e0e0e0; /* Світло-сірий фон для скроллбару */
+        }
+
+        /* Змінити висоту горизонтального скроллбару */
+        ::-webkit-scrollbar-horizontal {
+            height: 8px; /* Висота горизонтального скроллбару */
+        }
+
+        /* Додатковий стиль для тіла сторінки, щоб був скроллбар */
+        body {
+            height: 2000px; /* Додаємо висоту, щоб був скроллбар */
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <h1>Тест скроллбару</h1>
+    <p>Прокручуйте сторінку, щоб побачити, як виглядає змінений скроллбар!</p>
+</body>
+</html>
