@@ -1,0 +1,95 @@
+/* Вся сторінка - колір фону(#0a1223), шрифти ("Arial", "Helvetica"), розмір тексту(15px), зовнішні відступи(3% 0% 15% 0%), внутрішні відступи(0%); */
+
+body{
+  background-color: #0a1223;
+  font-family: "Arial", "Helvetica";
+  font-size: 15px;
+  margin: 3% 0% 15% 0%;
+  padding: 0;
+}
+
+/* Для усіх зображень - розмір(ширина - 100%); */
+
+img{
+  width: 100%;
+}
+
+
+/* Усі теги h1 - розмір шрифту(90px), колір (#fff); */
+
+h1{
+  font-size: 90px;
+  color: #fff;
+}
+
+/* Усі теги p - колір(#5d5d5d), відступ перед стрічкою(text-indent:15px); */
+
+p{
+  color: #5d5d5d;
+  text-indent: 15px;
+}
+
+/* Блок заголовку "10 цікавих фактів про Місяць" та загальний блок з контентом зовнішні відступ зверху 15% */
+
+.page-header, .articles{
+  margin-top: 15%;
+}
+
+/* Блок заголовку "10 цікавих фактів про Місяць" зовнішній відступ зліва 5% , вирівнювання по центру */
+
+.page-header{
+  margin-left: 5%;
+  text-align: center;
+}
+
+/* Загальний блок контенту зовнішній відступ зліва 12%, зправа 12%; */
+
+.articles{
+  margin-left: 12%;
+  margin-right: 12%;
+}
+
+
+/* Ця частина без змін */
+
+.article-item .article-text p {
+  text-align: justify;
+}
+
+h3{
+  font-size:26px;
+  background:linear-gradient(to left,#5d5d5d,#ddd);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+.article-item{
+  display:flex;
+  align-items:center;
+}
+.article-item .article-img,.article-item .article-text{
+  flex:50%;
+}
+.article-item:nth-child(odd){
+  flex-direction:row-reverse;
+}
+@media (max-width:991px){
+  .article-item,.article-item:nth-child(odd){
+    flex-direction:column-reverse;
+  }
+}
+@media (max-width:575px){
+  body{
+    background-color:#fff;
+    margin:0;
+  }
+  
+  h1{
+    color:#000;
+  }
+  
+  h3{
+    background: #484747;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+  }
+}

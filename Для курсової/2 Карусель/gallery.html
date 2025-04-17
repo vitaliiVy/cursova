@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="uk">
+    <head>
+        <!-- Мета дані, які вказують на кодування та адаптивний дизайн -->
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Фотогалерея</title>
+        
+        <!-- Підключення зовнішнього CSS файлу для стилізації -->
+        <link rel="stylesheet" href="style_site.css">
+        <link rel="stylesheet" href="gallery.css">
+        
+    </head>
+    <body>
+
+        <header>
+            <h1>Ласкаво просимо в Пташиний світ!</h1>
+            <p>Дізнайтесь більше про птахів та їхнє середовище існування в Україні.</p>
+        </header>
+
+        <!-- Навігаційне меню -->
+        <nav>
+            <ul class="list1">
+                <li><a class="birds" href="BirdsUkraine.html">Види птахів</a>
+                    <!-- Випадаючий список під пунктом меню -->
+                    <ul class="list2">
+                        <li><a href="Forest_Steppe.html">Лісові та степові птахи</a></li>
+                        <li><a href="Coastal.html">Прибережні птахи</a></li>
+                        <li><a href="BirdofPrey.html">Хижі птахи</a></li>
+                    </ul>
+                </li>
+                <li><a href="dictionary.html">Пташиний словник</a></li>
+                <li><a href="tips.html">Корисні поради</a></li>
+                <li><a href="gallery.html">Фотогалерея</a></li>
+                <li><a href="#contacts">Контакти</a></li>
+            </ul>
+        </nav>
+
+
+        <!-- Розділ "Фотогалерея" -->
+        <section id="gallery">
+            <h2 class="h2_header">Фотогалерея</h2>
+            
+            <!-- Контейнер-карусель -->
+            <div class="carousel-container">
+              <button class="nav prev">&#10094;</button>
+              <div class="carousel-track">
+                <div class="card">
+                  <h3>Сапсан</h3>
+                  <a href="https://uk.wikipedia.org/wiki/%D0%A1%D0%B0%D0%BF%D1%81%D0%B0%D0%BD" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/PeregrineFalcon.jpg/330px-PeregrineFalcon.jpg" alt="Сапсан" />
+                  </a>
+                  <p>Сапса́н (Falco peregrinus Tunst.) — хижий птах родини соколових, поширений на всіх континентах, окрім Антарктиди. Розміром з сіру ворону, він вирізняється своїм темним, аспідно-сірим оперенням спини, строкатим світлим черевом і чорною верхньою частиною голови, а також темною, видовженою плямою під очима — «вусами». Залежно від розміру й особливостей забарвлення, розрізняють близько 17 підвидів цього птаха. В Україні — три підвиди: звичайний, кавказький і тундровий сапсани: перші два рідкісні гніздові птахи, останній зустрічається на перельотах.</p>
+                </div>
+          
+                <div class="card">
+                  <h3>Чорний лелека</h3>
+                  <a href="https://uk.wikipedia.org/wiki/%D0%9B%D0%B5%D0%BB%D0%B5%D0%BA%D0%B0_%D1%87%D0%BE%D1%80%D0%BD%D0%B8%D0%B9" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Ciconia_nigra_1_%28Marek_Szczepanek%29.jpg/330px-Ciconia_nigra_1_%28Marek_Szczepanek%29.jpg" alt="Чорний лелека" />
+                  </a>
+                  <p>Лелека чорний (Ciconia nigra) — вид птахів з роду Лелека, родини Лелекових. Веде потайний спосіб життя. Один з 5-ти видів роду; один з 2-х видів роду у фауні України. В Україні гніздовий, перелітний птах. Оселяється переважно біля лісових озер чи лісових боліт.</p>
+                </div>
+          
+                <div class="card">
+                  <h3>Беркут</h3>
+                  <a href="https://uk.wikipedia.org/wiki/%D0%91%D0%B5%D1%80%D0%BA%D1%83%D1%82" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/GoldenEagle-Nova.jpg/330px-GoldenEagle-Nova.jpg" alt="Беркут" />
+                  </a>
+                  <p>Беркут (Aquila chrysaetos) — один із найбільших денних хижих птахів родини яструбових. Один з 9-ти видів роду; один з 5-ти видів роду у фауні України. В Україні рідкісний гніздовий птах.</p>
+                </div>
+          
+                <div class="card">
+                  <h3>Пугач</h3>
+                  <a href="https://uk.wikipedia.org/wiki/%D0%9F%D1%83%D0%B3%D0%B0%D1%87" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Uhu-muc.jpg/330px-Uhu-muc.jpg" alt="Пугач" />
+                  </a>
+                  <p>Пу́гач палеаркти́чний або пу́гач звича́йний (Bubo bubo), птах з родини Совові (Strigidae). Один з 13 видів роду, єдиний вид роду у фауні України. В Україні осілий птах. Одна з найбільших сов, яка поступається у розмірах лише рибному пугачу. Легко розпізнається за своїми розмірами, темним дзьобом, опереними до кігтів лапами та пір'євими «вушками», які нахилені назовні. У дорослого птаха верх темно-бурий з жовтуватими і білуватими плямами, низ вохристий з темно-бурими широкими поздовжніми рисками. Молодий птах має подібне забарвлення. Має загальну довжину 62—72 см, з розмахом крил 150—180 см; при довжині крил 41—52 см важить 2,1—3,2 кг. Очі великі, круглої форми з чорними зіницями.</p>
+                </div>
+          
+                <div class="card">
+                  <h3>Журавель сірий</h3>
+                  <a href="https://uk.wikipedia.org/wiki/%D0%96%D1%83%D1%80%D0%B0%D0%B2%D0%B5%D0%BB%D1%8C_%D1%81%D1%96%D1%80%D0%B8%D0%B9" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Graukranich_Grus_grus_Zoo_Augsburg-02.jpg/250px-Graukranich_Grus_grus_Zoo_Augsburg-02.jpg" alt="Сірий журавель" />
+                  </a>
+                  <p>Журавель сірий (Grus grus) — великий птах, що мешкає в Європі і Азії, третій за чисельністю вид родини журавлевих. Середніх розмірів, це єдиний вид журавлів, що широко розповсюджений в Європі, окрім журавля степового (Grus virgo) та журавля білого (Leucogeranus leucogeranus), які поширені лише в далекосхідній частині континенту. Один з 10 видів роду, один з 2 видів роду у фауні України, представлений номінативним підвидом.</p>
+                </div>
+              </div>
+              <button class="nav next">&#10095;</button>
+            </div>
+          </section>
+
+        <!-- Розділ контактів -->
+        <section id="contacts">
+            <h2>Контакти</h2>
+            <p>Якщо у вас є питання, не соромтеся зв'язатися з нами:</p>
+            <ul>
+                <li>Email: info@birdworld.com</li>
+                <li>Телефон: +38 (000) 123-45-67</li>
+            </ul>
+        </section>
+
+        <!-- Футер -->
+        <footer>
+            <p>&copy; 2025 Пташиний світ. Всі права захищено.</p>
+        </footer>
+
+        <!-- Карусель -->
+        <script>
+            const track = document.querySelector('.carousel-track'); /* отримуємо елемент каруселі (контейнер для карток) */
+            const prevBtn = document.querySelector('.nav.prev'); /* отримуємо кнопку "назад" */
+            const nextBtn = document.querySelector('.nav.next'); /* отримуємо кнопку "вперед" */
+
+            let cardWidth = document.querySelector('.card').offsetWidth; /* визначаємо ширину картки (буде використовуватися для прокрутки) */
+
+            /* додаємо слухач події на кнопку "назад" (кнопка з класом .prev) */
+            prevBtn.addEventListener('click', () => {
+                track.scrollBy({ left: -cardWidth, behavior: 'smooth' }); /* прокручуємо карусель вліво на ширину картки */
+            });
+
+            /* додаємо слухач події на кнопку "вперед" (кнопка з класом .next) */
+            nextBtn.addEventListener('click', () => {
+                track.scrollBy({ left: cardWidth, behavior: 'smooth' }); /* прокручуємо карусель вправо на ширину картки */
+            });
+
+            /* додаємо слухач події на зміну розміру вікна браузера */
+            window.addEventListener('resize', () => {
+                cardWidth = document.querySelector('.card').offsetWidth; /* при зміні розміру вікна знову визначаємо ширину картки */
+            });
+        </script>
+    </body>
+</html>
